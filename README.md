@@ -40,14 +40,26 @@ Each new item is added to the **top** of the stack. Checkout shows all items and
 
 ---
 ## 🚀 Installation
+### 🔧 Prerequisites
 
-### 📥 Clone the Repository
+Before running the project, make sure you have the following installed:
+
+### 🔹 Windows
+
+- Install [MinGW](http://www.mingw.org/) or use [WSL](https://learn.microsoft.com/en-us/windows/wsl/)
+- Add `gcc` / `g++` to system PATH
+
+### 🔹 Linux (Ubuntu/Debian)
 
 ```bash
-git clone https://github.com/your-username/mini-ecommerce-cart.git
-cd mini-ecommerce-cart
+sudo apt update
+sudo apt install build-essential
 ```
----
+### 🔹 macOS
+
+```bash
+xcode-select --install
+```
 
 ### ▶️ How to Run
 ## Run C Version
@@ -60,3 +72,7 @@ gcc cart.c -o cart
 g++ cart.cpp -o cart
 ./cart
 ```
+---
+
+## 🤝 Contributing
+Feel free to fork this repo, suggest improvements, or add new features. Pull requests are welcome!
